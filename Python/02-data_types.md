@@ -11,10 +11,10 @@
 ---
 ### 2. float `실수 자료형`
 - 실수를 표현하는 자료형
-- 프로그래밍 언어에서 float는 실수에 대한 <span style='color:yellow;'>근삿값</span>
+- 프로그래밍 언어에서 float는 실수에 대한 ${\textsf{\color{yellow}근삿값}}$
 
 #### 실수 연산 시 주의사항
-- <span style='color:crimson;'>**부동소수점 에러**</span>
+- ${\textsf{\color{red}부동 소수점 에러}}$
    - 컴퓨터가 실수를 2진수로 변환하는 과정에서 발생하는 근사치 표현
 - 해결책
   - 대표적으로 `decimal`모듈을 사용<br>
@@ -50,7 +50,7 @@ print(type(num))  # <class 'float'>
 
 ## Sequence Types
 ### 1. str `문자열`
-- 문자들의 순서가 있는 <span style='color:crimson;'>변경 불가능</span>한 시퀀스 자료형
+- 문자들의 순서가 있는 ${\textsf{\color{red}변경 불가능}}$한 시퀀스 자료형
 
 #### Escape sequence
 |     예약   문자    	|      내용(의미)    	|
@@ -83,7 +83,7 @@ print(my_list)  # [100, 2, 3]
 
 ---
 ### 3. tuple `튜플`
-- 여러 개의 값을 순서대로 저장하는 <span style='color:crimson;'>변경 불가능</span>한 시퀀스 자료형
+- 여러 개의 값을 순서대로 저장하는 ${\textsf{\color{red}변경 불가능}}$한 시퀀스 자료형
 
 #### 튜플 표현
 ```py
@@ -118,7 +118,7 @@ x, y = 10, 20
 
 ---
 ### 4. range
-- 연속된 정수 시퀀스를 생성하는 <span style='color:crimson;'>변경 불가능</span>한 자료형
+- 연속된 정수 시퀀스를 생성하는 ${\textsf{\color{red}변경 불가능}}$한 자료형
 
 ## Non-sequence Types
 ### 1. dict `딕셔너리`
@@ -126,13 +126,13 @@ x, y = 10, 20
 
 #### 딕셔너리 표현
 - key는 **변경 불가능**한 자료형만 사용 가능 (str, int, float, tuple, range, ...)<br>
-⇒ <span style='color:yellow;'>중복이 되면 안 되므로!</span>
+⇒ ${\textsf{\color{yellow}중복이 되면 안 되므로}}$
 - value는 모든 자료형 사용 가능
 
 #### 딕셔너리 사용
 - Q. 두 번째 요소를 출력하시오.
 - A. print(my_dict[1])<br>
-⇒ <span style='color:crimson;'>낚였습니다!!!</span> 딕셔너리는 순서가 없으므로 **key를 통해 value에 접근**
+⇒ ${\textsf{\color{red}낚였습니다!!!}}$ 딕셔너리는 순서가 없으므로 **key를 통해 value에 접근**
 
 ---
 ### 2. set `세트`
