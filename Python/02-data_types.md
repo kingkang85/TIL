@@ -11,7 +11,7 @@
 ---
 ### 2. float `실수 자료형`
 - 실수를 표현하는 자료형
-- 프로그래밍 언어에서 float는 실수에 대한 ${\textsf{\color{yellow}근삿값}}$
+- 프로그래밍 언어에서 float는 실수에 대한 ${\textsf{\color{blue}근삿값}}$
 
 #### 실수 연산 시 주의사항
 - ${\textsf{\color{red}부동 소수점 에러}}$
@@ -126,7 +126,7 @@ x, y = 10, 20
 
 #### 딕셔너리 표현
 - key는 **변경 불가능**한 자료형만 사용 가능 (str, int, float, tuple, range, ...)<br>
-⇒ ${\textsf{\color{yellow}중복이 되면 안 되므로}}$
+⇒ ${\textsf{\color{blue}중복이 되면 안 되므로}}$
 - value는 모든 자료형 사용 가능
 
 #### 딕셔너리 사용
