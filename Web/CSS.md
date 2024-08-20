@@ -31,3 +31,7 @@ id는 왜 안 씀? 요소 1개에만 적용함 ... 중복이 안 되는구나..
 1. outer display type
   - block : 아래로 떨어짐  h1 h2 p 보면 밑으로 떨어짐 (너비 영역 다 차지)
   - inline : 옆으로 감  a img 태그 보면 옆으로 감  (본인의 컨텐츠 영역 차지)
+
+2. inner display type
+  - flexbox : 
+
