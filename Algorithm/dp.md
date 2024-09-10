@@ -60,12 +60,12 @@ def lis_dp(nums):
     return []
   
   n = len(nums)
-  lis = [1] * n
-  prev = [-1] * n
+  lis = [1] * n    # 각 숫자까지의 lis 길이 저장
+  prev = [-1] * n  # 이전 숫자의 위치 기억
 
   for i in range(1, n):
     for j in range(i):
-      if num[i] > num[j] and lis[i] < lis[j] + 1:
+      if nums[i] > nums[j] and lis[i] < lis[j] + 1:
         lis[i] = lis[j] + 1
         prev[i] = j
     
@@ -73,9 +73,9 @@ def lis_dp(nums):
   max_index = lis.index(max_length)
 
   result = []
-  while max_idex != -1:
+  while max_index != -1:
     result.append(nums[max_index])
-    max_index = prev[max_idex]
+    max_index = prev[max_index]
   
   return result[::-1]
 ```
