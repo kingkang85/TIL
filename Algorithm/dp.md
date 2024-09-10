@@ -53,3 +53,29 @@ def fibo_dp(n):
 
 2. 최적 부분문제 구조
   - 어떤 문제에 대한 해가 최적일 때 그 해를 구성하는 작은 문제들의 해 역시 최적이어야 함
+
+```py
+def lis_dp(nums):
+  if not nums:
+    return []
+  
+  n = len(nums)
+  lis = [1] * n
+  prev = [-1] * n
+
+  for i in range(1, n):
+    for j in range(i):
+      if num[i] > num[j] and lis[i] < lis[j] + 1:
+        lis[i] = lis[j] + 1
+        prev[i] = j
+    
+  max_length = max(lis)
+  max_index = lis.index(max_length)
+
+  result = []
+  while max_idex != -1:
+    result.append(nums[max_index])
+    max_index = prev[max_idex]
+  
+  return result[::-1]
+```
