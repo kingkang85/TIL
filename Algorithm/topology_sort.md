@@ -53,7 +53,7 @@ def topology_sort():
 v, e = map(int, input().split())
 # 모든 노드에 대한 진입차수 0으로 초기화
 indegree = [0] * (v+1)
-# 각 노드에 연결된 간선 정보를 담기 위한 연결 리스트
+# 각 노드에 연결된 간선 정보를 담기 위한 인접 리스트
 graph = [[] for _ in range(v+1)]
 
 # 방향 그래프의 모든 간선 정보 입력 받기
