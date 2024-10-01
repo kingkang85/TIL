@@ -16,7 +16,7 @@
 STATIC_URL = 'static/'
 ```
 
-⇒ URL + ${\textsf{\color{crimson}STATIC\_URL}}$ + ${\textsf{\color{orange}정적 파일 경로}}$
+⇒ URL + ${\textsf{\color{crimson}STATIC URL}}$ + ${\textsf{\color{orange}정적 파일 경로}}$
 
 ## Static files 추가 경로
 - STATICFILES_DIRS에 문자열 값으로 추가 경로 설정<br>

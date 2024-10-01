@@ -4,7 +4,7 @@
 - 변수는 view 함수의 인자로 전달할 수 있음
 
 ### 작성법
-<${\textsf{\color{crimson}path converter}}$:${\textsf{\color{blue}variable name}}$>
+<${\textsf{\color{crimson}path converter}}$ : ${\textsf{\color{blue}variable name}}$>
 
 - Path converters
   - URL 변수의 타입을 지정
@@ -23,4 +23,4 @@
 ## URL 이름 공간
 - URL 이름 지정 후 남은 문제
   - 두 앱의 url 이름이 같다면? 어떤 경로로 요청을 보내야할 지 알 수 없음
-- ${\textsf{\color{orange}'app\_name' 속성}}$을 지정하여 해결
+- ${\textsf{\color{orange}'app name' 속성}}$을 지정하여 해결
