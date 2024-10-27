@@ -1,5 +1,5 @@
 # Array
-- 순서가 있는 데이터 집합을 저장하는 자료구조
+순서가 있는 데이터 집합을 저장하는 자료구조
 
 ## 배열 구조
 - 대괄호('[]')를 이용해 작성
@@ -29,3 +29,12 @@
 ### map
 - 배열의 모든 요소에 대해 함수(콜백함수)를 호출하고, 반한 된 호출 결과 값을 모아 ${\textsf{\color{orange}새로운 배열을 반환}}$<br>
 `arr.map(callback(item,[, index[, array]]))`
+
+## 배열 with '전개 구문'
+배열 복사
+```javascript
+let parts = ['어깨', '무릎']
+let lyrics = ['머리', ...parts, '발']
+
+console.log(lyrics) // ['머리', '어깨', '무릎', '발']
+```
